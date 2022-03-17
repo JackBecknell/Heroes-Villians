@@ -1,7 +1,7 @@
 from django.db import models
 from super_types.models import SuperTypes
 
-class Super(models.model):
+class Supers(models.model):
     name = models.CharField(maxlength=255)
     alter_ego = models.CharField(maxlength=255)
     primary_ability = models.CharField(maxlength=255)
