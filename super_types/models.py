@@ -1,4 +1,4 @@
 from django.db import models
 
-class SuperTypes(models.model):
+class SuperTypes(models.Model):
     name = models.CharField(max_length=255)
